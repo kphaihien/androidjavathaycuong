@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:id="@+id/backgroundimage">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/dovui"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/nameGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đố vui hại não"
+        android:layout_below="@id/backgroundimage"
+        android:layout_marginHorizontal="80dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:padding="20dp"
+        android:background="@drawable/border_for_ranking"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/nameGame"
+        android:gravity="center|top"
+        >
+
+        <Button
+            android:id="@+id/play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="60dp"
+            android:width="200dp"
+            android:textSize="20dp"
+            android:text="Play"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/bxh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/play"
+            android:width="200dp"
+            android:height="60dp"
+            android:text="Ranking"
+            android:textSize="20dp" />
+
+
+
+        <Button
+            android:id="@+id/help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bxh"
+            android:width="200dp"
+            android:height="60dp"
+            android:text="Helps"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

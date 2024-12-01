@@ -1,0 +1,12 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Màu nền cho dialog -->
+    <solid android:color="#FFFFFF" />
+
+    <!-- Định nghĩa viền cho dialog -->
+    <stroke
+        android:width="10dp"
+        android:color="#000000" />
+
+    <!-- Tùy chọn bo góc nếu cần -->
+    <corners android:radius="10dp" />
+</shape>

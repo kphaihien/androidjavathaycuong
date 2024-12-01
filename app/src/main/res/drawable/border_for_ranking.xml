@@ -1,0 +1,13 @@
+<!-- res/drawable/border.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Màu nền của layout (nếu có) -->
+    <solid android:color="#f1c63f" />
+
+    <!-- Định nghĩa viền -->
+    <stroke
+        android:width="3dp"
+        android:color="@color/black"/>
+
+    <!-- Định nghĩa góc bo tròn (nếu cần) -->
+    <corners android:radius="5dp" />
+</shape>
